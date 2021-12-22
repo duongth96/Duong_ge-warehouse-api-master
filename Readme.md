@@ -1,6 +1,6 @@
 * Test api trên local nhận kết quả thành công như sau:
 
-** api đăng nhập:
+# api đăng nhập:
 	- api: http://localhost:37916/Authenticate/Login
 	- method: POST
 	- body: 
@@ -15,7 +15,7 @@
 			"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYmYiOjE2MjQ4ODczMTksImV4cCI6MTYyNTQ5MjExOSwiaWF0IjoxNjI0ODg3MzE5fQ.EmFQQeZ_cJukbxLiZ2wu6GYJpypK00BaI36LRPYPp4Y"
 		}
 	
-** api danh sách kho:
+# api danh sách kho:
  	- api: http://localhost:37916/Warehouse
 	- method: GET
 	- response:
@@ -34,7 +34,7 @@
 			]
 		}
 
-** api nhập kho:
+# api nhập kho:
 	- api: http://localhost:37916/Inventory
 	- method: POST
 	- body:
