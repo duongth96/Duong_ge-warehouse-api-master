@@ -1,5 +1,7 @@
-* Test api trên local nhận kết quả thành công như sau:
+Thư viện:
+* Dapper (kết nối và truy vấn sql server).
 
+Gọi api
 # api đăng nhập:
 	- api: http://localhost:37916/Authenticate/Login
 	- method: POST
